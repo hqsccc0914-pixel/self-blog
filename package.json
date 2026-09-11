@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node build.mjs",
-    "check": "node scripts/check-site.mjs"
+    "build": "node build.mjs"
   },
   "engines": {
     "node": ">=22"
+  },
+  "dependencies": {
+    "katex": "0.16.22",
+    "marked": "17.0.5"
   }
 }

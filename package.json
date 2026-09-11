@@ -1,0 +1,12 @@
+{
+  "name": "self-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node scripts/check-site.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
